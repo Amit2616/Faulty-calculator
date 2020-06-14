@@ -1,0 +1,22 @@
+a = int(input("enter first number"))
+p = input("enter operator which you want to use")
+b = int(input("enter second number"))
+if p=="+":
+	if a==56 and b==9:
+		print(77)
+	else:
+		print(a+b)
+elif p=="-":
+	print(a-b)
+elif p=="*":
+	if a==45 and b==3:
+		print(555)
+	else:
+		print(a*b)
+elif p=="/":
+	if a==56 and b==6:
+		print(4)
+	else:
+		print(a/b)
+else:
+	print("invalid input")
